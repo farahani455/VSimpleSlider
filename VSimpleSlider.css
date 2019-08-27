@@ -1,10 +1,8 @@
     #simpleSlider {
         position: relative;
         overflow: hidden;
-
         border-radius: 4px;
     }
-
     #simpleSlider ul.main-simple-slider {
         display: flex;
         position: relative;
@@ -13,7 +11,6 @@
         padding: 0;
         list-style: none;
     }
-
     #simpleSlider ul.main-simple-slider li {
         display: block;
         min-width: 100%;
@@ -22,8 +19,6 @@
         background: #ccc;
         text-align: center;
     }
-
-
     #simpleSlider ul.simple-slider-dots {
         justify-content: center;
         display: -webkit-box;
@@ -42,7 +37,6 @@
         z-index: 99;
         left: 45%;
     }
-
     #simpleSlider .simple-slider-dots span {
         -webkit-transition: all 200ms linear;
         -o-transition: all 200ms linear;
@@ -75,7 +69,6 @@
         border-radius: 50% 50% 50% 50%;
         margin-left: 4px;
     }
-
     #simpleSlider .simple-slider-dots .slick-active span {
         background: #249cf2;
     }
